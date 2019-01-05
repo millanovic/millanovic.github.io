@@ -8,7 +8,7 @@ header-img: img/post-bg-js-curry.jpg
 tags:
     - 前端开发
     - JavaScript
-    - React
+    - Mobx
 ---
 
 # Mobx入门指南
