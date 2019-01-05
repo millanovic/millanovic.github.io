@@ -17,7 +17,7 @@ tags:
 
 ### git-flow 流程
 
-![git-flow流程图](img/git-model.jpeg)
+![git-flow流程图](/img/git-model.jpeg)
 | 分支        | 功能描述    | 允许合入的分支    |
 | --------   | --------  | --------  |
 | master | 生产环境分支 |  release, hotfix  |
@@ -47,7 +47,7 @@ tags:
 $ git merge --no-ff
 ```
 
-![git-merge流程图](img/git-flow-branch.png)
+![git-merge流程图](/img/git-flow-branch.png)
 ```git merge –no-ff``` 可以保存你之前的分支历史。能够更好的查看 merge历史，以及branch 状态。 
 ```git merge``` 则不会显示 feature，只保留单条分支记录。
 
