@@ -18,8 +18,8 @@ tags:
 ### git-flow 流程
 
 ![git-flow流程图](/img/git-model.jpeg)
-| 分支        | 功能描述    | 允许合入的分支    |
-| --------   | --------  | --------  |
+| 分支        | 功能描述    | 允许合入的分支   |
+| --------   | :-------------:  | -------------: |
 | master | 生产环境分支 |  release, hotfix  |
 | develop | 基于master拉出的开发分支，保持最新的开发代码 |  feature, release, hotfix |
 | release_xxx | 基于develop拉出的预发布分支，测试完成后合并入master和develop，打tag |  不允许任何分支合并  |
