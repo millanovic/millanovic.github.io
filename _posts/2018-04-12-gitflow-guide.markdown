@@ -18,6 +18,7 @@ tags:
 ### git-flow 流程
 
 ![git-flow流程图](/img/git-model.jpeg)
+
 | 分支        | 功能描述    | 允许合入的分支   |
 | --------   | --------  | --------  |
 | master | 生产环境分支 |  release, hotfix  |

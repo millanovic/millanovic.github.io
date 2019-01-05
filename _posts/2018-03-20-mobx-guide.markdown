@@ -17,6 +17,7 @@ tags:
 Mobx是一种轻量级的状态管理, 可以根据应用的 UI、数据或业务逻辑来组织store
 
 ## Mobx与Redux的对比
+
 | Mobx        | Redux    |
 | --------   | --------  |
 | 多个store | store为单一数据源 |
@@ -24,6 +25,7 @@ Mobx是一种轻量级的状态管理, 可以根据应用的 UI、数据或业�
 | 只有用到该数据的地方才会更新  | 任何action dispatch都会广播，需要自己用需要我们在组件中用 shouldComponentUpdate 控制更新粒度 |
 
 ## 为何用Mobx取代setState
+
 - setState是异步操作，使用不当会导致bug
 - setState会造成一些不必要的重新渲染
 - setState是不能满足所有的状态存储的，比如如果将一些权限管理状态放在state里面就会造成不必要的渲染
